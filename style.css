@@ -1,4 +1,4 @@
-* {
+x\* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ header {
     width: 100%;
     text-align: center;
     padding-top: 10px;
-    background-color: #333;
+    background-color: #3498db; /* Blue color */
     color: #fff;
 }
 
@@ -28,7 +28,7 @@ main {
 .intro {
     padding: 10px;
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #ecf0f1; /* Complementing accent color */
 }
 
 .heading-elements {
@@ -40,13 +40,13 @@ main {
     width: 80%;
     border-collapse: collapse;
     margin-top: 20px;
-    border: 1px solid black; 
+    border: 1px solid #3498db; /* Blue color */
 }
 
 .heading-elements th, .heading-elements td {
-    padding: 15px;
+    padding: 20px;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #3498db; /* Blue color */
 }
 
 .heading-elements span.code {
@@ -56,44 +56,11 @@ main {
 }
 
 .heading-elements th {
-    background-color: #f2f2f2;
+    background-color: #ecf0f1; /* Complementing accent color */
 }
 
 .heading-elements tbody tr:nth-child(even) {
     background-color: #f9f9f9;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-}
-
-header {
-    height: 125px;
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
-    background-color: #333;
-    color: #fff;
-}
-
-h1, h3 {
-    margin: 5px 0;
-}
-
-main {
-    text-align: center;
-}
-
-.intro {
-    padding: 10px;
-    text-align: center;
-    background-color: #f2f2f2;
 }
 
 .semantic-html {
@@ -105,13 +72,13 @@ main {
     width: 80%;
     border-collapse: collapse;
     margin-top: 20px;
-    border: 1px solid black;
+    border: 1px solid #3498db; /* Blue color */
 }
 
 .semantic-html th, .semantic-html td {
     padding: 15px;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #3498db; /* Blue color */
 }
 
 .semantic-html span.code {
@@ -120,9 +87,8 @@ main {
     text-align: left;
 }
 
-/* Optional: Add some styles for better readability */
 .semantic-html th {
-    background-color: #f2f2f2;
+    background-color: #ecf0f1; /* Complementing accent color */
 }
 
 .semantic-html tbody tr:nth-child(even) {

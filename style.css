@@ -94,3 +94,9 @@ main {
 .semantic-html tbody tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+    
+}

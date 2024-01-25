@@ -95,6 +95,11 @@ main {
     background-color: #f9f9f9;
 }
 
+td:hover {
+    background-color: #3498db;
+    color: #ecf0f1;
+}
+
 footer {
     padding-top: 20px;
     text-align: center;

@@ -98,6 +98,7 @@ main {
 td:hover {
     background-color: #3498db;
     color: #ecf0f1;
+    transition: background-color .3s ease-in, color .3s ease-in;
 }
 
 footer {
